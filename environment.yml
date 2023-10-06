@@ -1,0 +1,14 @@
+name: scicar
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python >=3.8
+  # Required
+  - jupyterlab
+  - jupyterlab-geojson
+  - xcube
+  - xcube-cci
+  - xcube-sh
+
